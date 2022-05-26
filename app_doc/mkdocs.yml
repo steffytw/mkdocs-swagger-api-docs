@@ -1,0 +1,44 @@
+site_name: Pet Store
+
+site_url:  'https://petstore.com/pets'
+
+theme:
+  name: 'material'
+  palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+nav:
+  - About: index.md
+  - Pet store: pet_store.md
+
+plugins:
+  - search
+  - render_swagger
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/geosony
+
+extra_css:
+  - assets/css/swagger-ui-x.css
+
+copyright: Copyright &copy
