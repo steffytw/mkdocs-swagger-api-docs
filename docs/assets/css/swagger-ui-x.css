@@ -1,0 +1,13 @@
+.swagger-ui .info li, .swagger-ui .info p, .swagger-ui .info table,.swagger-ui .info .title,.swagger-ui .info .base-url{
+    color: #f5f5f5 !important;
+}
+.swagger-ui a.nostyle, .swagger-ui a.nostyle:visited,.swagger-ui .opblock-tag small{
+    color: #009485 !important;
+}
+.swagger-ui .opblock-description-wrapper p, .swagger-ui .opblock-external-docs-wrapper p, .swagger-ui .opblock-title_normal p,
+.swagger-ui table thead tr td, .swagger-ui table thead tr th,.swagger-ui .parameter__name,.swagger-ui,.swagger-ui .response-col_status {
+    color: #E6E6E6 !important;
+}
+.swagger-ui {
+    color: #f8f8f8 !important;
+}
